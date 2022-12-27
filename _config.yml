@@ -53,7 +53,7 @@ content:
         caption: May 2020 - present
         link: mahsan.co
         description: | # this will include new lines to allow paragraphs
-          - Automate Authentication and Authorization in Active Directory (Python-Powershell-Jenkins-ActiveDirectory).
+          - Automate Authentication and Authorization in Active Directory (Python, Powershell, Jenkins, ActiveDirectory).
           - Develop Python CLI program to automate processes (Click, API, AzureDevOps, Valgrind, ...).
           - The administrator of Jenkins as a Continuous Integration (CI) tool.
           - The administrator of Azure DevOps as Git source code management (SCM).
