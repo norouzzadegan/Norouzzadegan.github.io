@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -9,20 +9,18 @@ version: 2
 name: Mohammad Norouzzadegan
 title: DevOps Eng
 email: Norouzzadegan@gmail.com
-# email_title: Email (Email title override)
 website: https://Norouzzadegan.github.io
-# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: true
 
 # Social links
-github_username:  Norouzzadegan
+github_username: Norouzzadegan
 stackoverflow_username: "13566519"
 linkedin_username: Norouzzadegan
 
 # Additional icon links
-additional_links:
+# additional_links:
 # - title: Link name
 #   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -32,15 +30,18 @@ additional_links:
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
-gtm: "GTM-0000000"
-gtag: "UA-00000000-0"
-google_analytics: "UA-00000000-0"
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: /images/norouzzadegan.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Mohammad Norouzzadegan. I am a <mark>DevOps engineer</mark>. In addition to devops, I also study <mark>Security</mark> and <mark>DevSecOps</mark> issues. I like to try challenging environments.
+  Hi, I'm Mohammad Norouzzadegan. I am a <mark>DevOps</mark> Engineer.
+  I am a master of Telecommunications Engineering.
+  I am interested in trying challenging environments.
+  Along with DevOps, I also have studied on <mark>DevSecOps</mark>.
 
 content:
   - title: Experience
@@ -51,65 +52,65 @@ content:
         sub_title: DevOps Eng
         caption: May 2020 - present
         link: mahsan.co
-        quote: Provider of products and solutions for the new world of communication.
         description: | # this will include new lines to allow paragraphs
-          - Automatic Authentication and Autorization Jenkins-Python-ActiveDirectory
-          - Develop Naser project to automate process need to be automate
-          - Administrator of Jenkins as Continues delivery
-          - administrator of AzureDevps as SCM(Source Control Management)
-          - Implement servecis on docker
-          - Implement of infrustructure for a product of company smoke test.
+          - Automate Authentication and Authorization in Active Directory (Python-Powershell-Jenkins-ActiveDirectory).
+          - Develop Python CLI program to automate processes (Click, API, AzureDevOps, Valgrind, ...).
+          - The administrator of Jenkins as a Continuous Integration (CI) tool.
+          - The administrator of Azure DevOps as Git source code management (SCM).
+          - Write Jenkinsfile for multi projects (script and Declarative).
+          - Dockerized several services (Jenkins, ...).
+          - Implement an infrastructure Smoke test a product (Bash, Terraform, Dcoker, Baresip).
       - layout: left
         title: SINA Innovative Communications System Co
-        sub_title: Test & Implementation Telecom Core Network on docker
+        sub_title: Test & Implementation IMS telecom core network on Docker
         caption: July 2019 - March 2020
         link: sinacomsys.com
-        quote: As a knowledge-based company at SINA Co.
         description: | # this will include new lines to allow paragraphs
-          - Implementation Gitlab docker based on Linux Ubuntu and Coreos
-          - Implementation Sina IMS Core
-          - Testing and Evaluation KPI of Sina IMS Core with SIPp and MTS
-          - Survey of Authentication in IMS network with AKAv1 AKAv2 protocol
+          - Dockerized Sina IP Multimedia Subsystem (IMS) Core.
+          - Implement Gitlab Container Registry on Ubuntu and CoreOs.
+          - Testing and Evaluation KPI of Sina IMS Core with SIPp and MTS.
+          - Survey of Authentication in IMS network with AKAv1 AKAv2 protocol.
       - layout: left
         title: Nima Research Lab
         sub_title: Vulnerability Assessment & Penetration Testing
         caption: November 2017 - September 2018
         description: | # this will include new lines to allow paragraphs
-          - Scan and Explore vulnerability on Web application
-          - Explore of internal network from vulnerability
+          - Scan and Explore vulnerability on Web application.
+          - Explore of internal network from vulnerability.
 
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
      ## Experienced
-      - Operation system: Ubuntu, Debian
-      - Programing Language: Python, BashScript
-      - Continues Integration: Jenkins, Gitlab CI, Github Action
+      - Operation System: Ubuntu, Debian
+      - Programming Language: Python, BashScript
+      - Continues Integration: Jenkins, Github Action, Gitlab CI
       - Container Runtime: Docker
+      - Version Control: Git
       - GIT Source Control Management: AzureDevOps, Gitlab, Github
       - Infrastructure as code: Terraform
-      - Voip: Sip, SiPp, IMS, Mts Ericson
+      - Voip: Sip, SiPp, IMS, Baresip
       - Virtualization: Vsphere
+      - Project Management: Jira, Peygir(Persian Redmine)
       - Penteration Testing: Nessus, Acunetix, Metasploit, Burp Suite
 
      ## Familiar
       - Configuration Management: Ansible
       - Monitoring: Prometheus-Grafana
-      - Orchestration: Kubernetes
-    
+      - Orchestration: Kubernetes, Docker Swarm
 
   - title: Education
     layout: list
     content:
       - layout: top-middle
         title:  K. N. Toosi University of Technology
-        sub_title: Master Telecommunication Eng
+        sub_title: Master of Telecommunication, Telecommunications Engineering
         caption: 2013 - 2016
         link: kntu.ac.ir
       - layout: top-middle
         title:  Shahrood University of Technology
-        sub_title: Bachelor Electrical 
-        caption: 2009 - 2012 Eng
+        sub_title: Bachelor's degree, Electrical, Electronics and Communications Engineering 
+        caption: 2009 - 2012
         link: shahroodut.ac.ir
 
   - title: Publications # Title for the section
@@ -126,8 +127,7 @@ content:
 #           Assessing Derived Attacks from MITM Attack in Industrial Control Systems with Respect to DNP3 Protocol
         description: | # this will include new lines to allow paragraphs
           ## Assessing Derived Attacks from MITM Attack in Industrial Control Systems with Respect to DNP3 Protocol
-
-          International ISC Conference on Information Security and Cryptology
+          International ISC Conference on Information Security and Cryptology.
 
 # Footer
 footer_show_references: true
